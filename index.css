@@ -1,0 +1,292 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    margin: 1rem;
+}
+.elementnav{
+    display: flex;
+    list-style: none;
+    gap: 6rem;
+    color: #000E01;
+}
+a{
+    text-decoration: underline;
+    color: #79AC78;
+    text-underline-offset: 1rem;
+}
+.boutonnav{
+    border-radius: 2rem;
+    width: 8rem;
+    height: 3rem;
+    background-color: #79AC78;
+    color: antiquewhite;
+}
+.section1{
+    display: flex;
+    gap: 3rem;
+
+}
+.div1section1{
+    display: flex;
+    align-items: center; 
+    flex: 1;
+}
+.img1section1{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.elementdiv{
+    justify-content: center;
+   
+
+}
+h2{
+    text-align: center;
+    font-size:15px;
+    color: #443434;
+    padding-right: 1rem;
+}
+.paragrah{
+    text-align: center;
+    padding-right: 1rem;
+    margin: 1rem;
+}
+.div2section1{
+    display: flex;
+    
+}
+.div3section1{
+display: flex;
+ }
+
+
+.elementsection1{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 0px;
+ 
+}
+.elementsection1>h1{
+    border-left: 13px solid #618264;
+    padding: 1rem;
+    font-weight: 600;
+
+}
+.sectin2{
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem;
+    margin-top: 3rem;
+}
+.imgsection2{
+    width: 20rem;
+    height: 20rem;
+}
+.paragrah2{
+    margin-top: 1rem;
+    text-align: center;
+    color: #000E01;
+    width: 300px;
+    height: 80px;
+}
+.section3{
+    justify-items: center;
+}
+.section-video{
+    margin-top: 3rem;
+    
+    
+}
+.title{
+    font-size: 3rem;
+    text-align: center;
+
+    width: 1000px;
+    height: 48px;
+    color: #000E01;
+}
+.section4{
+    margin-top: 5rem;
+}
+.elementsection4{
+    display: flex;
+    justify-items: center;
+    flex: 1;
+    gap: 2rem;
+}
+.textsection4{
+    margin-top: 5rem;
+    justify-content: center;
+}
+.texth6{
+    text-align: center;
+    font-size: 1rem;
+}
+.imagesection6{
+    margin-top: 5rem;
+}
+.title1{
+    font-size: 2rem;
+    padding: 2rem;
+}
+.imagesection4{
+    display: flex;
+    padding: 3rem;
+   gap: 5rem;
+    
+}
+.paragrah4{
+    text-align: center;
+    margin: 1rem;
+}
+.image4{
+    width: 40rem;
+    height: 25rem;
+    margin-top: 3rem;
+}
+.grandtitre4{
+    text-align: center;
+    
+}
+.section5{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 8rem;
+    gap: 10rem;
+
+}
+.image1section5{
+    margin-top: 3rem;
+
+}
+.image2section5{
+    width: 15rem;
+    height: 15rem;
+    margin-top: 2rem;
+}
+.textesection5{
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1rem;
+    color: #000E01;
+}
+.secton6{
+    display: flex;
+    gap: 5rem;
+    margin-top: 3rem;
+}
+    /* display: flex; */
+.paragrah6{
+    flex-direction: column;
+    text-align: center;
+    margin: 20rem;
+    padding-left: 2rem;
+}
+
+.elementsection6>h1{
+    text-align: center;
+    margin: 2Rem;
+
+}
+.icone6{
+    display: flex;
+    margin-top: 1rem;
+    padding: 3rem;
+    gap: 3rem;
+}
+.texte6{
+    text-align: center;
+    padding: 1rem;
+}.titre7{
+    text-align: center;
+    padding: 2rem;
+    font-size: 1rem;
+}
+.title7{
+    font-size: 10rem;
+}
+.img7{
+    padding: 3rem;
+    width: 40rem;
+    height: 30rem;
+}
+.section7{
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+}
+hr{
+    width: .5rem;
+    height: 3rem;
+    background-color: #618264;
+}
+.titre8{
+    flex: 1;
+    display: flex;
+    writing-mode: vertical-rl;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.img1section7{
+    flex: 5;
+}
+
+.img1section7 img{
+    width: 100%;
+    height: 100%;
+}
+span{
+    font-size: 2rem;
+    transform: rotate(180deg);
+
+}
+.section8{
+    display: flex;
+    justify-content: space-around;
+    padding: 8rem;
+}
+.texte8{
+    text-align: center;
+}
+footer{
+    width: 100vw;
+    height: 60vh;
+    background-color: #79AC78;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+} 
+.footer1 img{
+    width: 12rem;
+    height: 12rem;
+}
+.imagefooter1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+.imagefooter1 img{
+    width: 3rem;
+    height: 3rem;
+}
+    
+    
+
